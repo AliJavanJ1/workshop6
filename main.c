@@ -1,5 +1,9 @@
 #include "stdio.h"
 
 int main() {
-    printf("Hello World!");
+    int a, b;
+    scanf("%d", &a);
+    printf("/\n");
+    scanf("%d", &b);
+    printf("=\n%f\n", a / (float) b);
 }
